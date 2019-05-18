@@ -1,12 +1,10 @@
 body {
   background: url(../img/bg.jpg);
-  background-repeat: repeat-y;
-  width: 960px;
   margin: o auto;
 }
 
 .wrapper {
-  width: 795px;
+  width: 847px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -31,13 +29,13 @@ body {
 
 .Palm {
   position: absolute;
-  left: 128px;
-  top: 55px;
+  left: 154px;
+  top: 59px;
 }
 
 .text {
   height: 67px;
-  width: 800px;
+  width: 822px;
   margin-top: 135px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -56,7 +54,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 211px;
+  width: 263px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -105,6 +103,10 @@ body {
       -ms-flex-align: center;
           align-items: center;
   margin-bottom: 51px;
+}
+
+.row {
+  padding: 0 23px;
 }
 
 .countries span {
